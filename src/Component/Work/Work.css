@@ -1,0 +1,15 @@
+.card1 .front {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+.card1:hover .front {
+    opacity: 1; /* Makes the overlay appear on hover */
+    background-color: black;
+    color:white;
+}
+.options{
+    list-style: none;
+    color: #007bff;
+    text-decoration: underline;
+}

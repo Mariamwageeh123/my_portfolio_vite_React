@@ -1,0 +1,66 @@
+/* .icons{
+font-size: 33px;
+color: aliceblue;
+word-spacing: 3px;
+} */
+
+/* Ensure carousel image is properly sized */
+.nav {
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  /* Center caption content */
+  .custom-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+  }
+  
+  .custom-caption h3 {
+    margin-bottom: 15px;
+    
+    
+  }
+  
+  .custom-caption button {
+    margin-top: 10px;
+  }
+  
+
+  
+ 
+/* Carousel item background colors */
+.white-background {
+    background-color:white;
+    height: 100vh;
+    color: black;
+  }
+  
+  .black-background {
+    background-color: black;
+    height: 100vh;
+    color: white; /* Change text color to white for readability on black background */
+  }
+  
+  /* Center caption content */
+ 
+  
+  .custom-caption h3 {
+    margin-bottom: 15px;
+  
+  }
+  
+  .custom-caption button {
+    margin-top: 10px;
+  }
+  
+  /* Add styling for icons */
+ 

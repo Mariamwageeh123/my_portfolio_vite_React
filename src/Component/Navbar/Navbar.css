@@ -1,0 +1,61 @@
+.img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: solid 2px black;
+  margin-top: 30px; /* You can keep this if you want some spacing at the top */
+}
+
+.navs {
+  background-color: black;
+  color: aliceblue;
+  height: auto; /* This can be removed if not necessary */
+}
+
+/* Full navbar styles */
+.full-navbar {
+  position: fixed; /* Keeps it in the same place */
+  top: 0;
+  left: 0; /* Positioning it at the left */
+  width: 300px; /* Fixed width for the navbar */
+  height: 100vh; /* Full height of the viewport */
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  z-index: 1000; /* Ensure it appears above other content */
+  display: none; /* Initially hide the full navbar */
+}
+
+/* Show full navbar on larger screens */
+@media (min-width: 768px) {
+  .full-navbar {
+      display: block; /* Show on larger screens */
+  }
+
+  .mobile-menu-btn {
+      display: none; /* Hide mobile button on larger screens */
+  }
+}
+
+/* Show offcanvas button only on smaller screens */
+@media (max-width: 767px) {
+  .mobile-menu-btn {
+      display: block; /* Show the mobile button */
+  }
+
+  .full-navbar {
+      display: none; /* Hide the full navbar on smaller screens */
+  }
+}
+.nav-link {
+  text-decoration: none; /* Remove default underline */
+  color: aliceblue; /* Ensure the color matches your design */
+  transition: border-bottom 0.3s; /* Smooth transition for the underline */
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid aliceblue; /* Underline effect */
+  padding-bottom: 2px; /* Optional: add space for the underline */
+  
+}
+.mobile{text-align: center;}

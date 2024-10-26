@@ -7,7 +7,7 @@ export default function About() {
     <h2 className='text-danger'>Who AM I ?</h2>
     
     <p><b>My Name is Mariam Wageeh</b> I am 22 year's old , <br></br>
-    I graduated from computer and artificial intelligence Helwan university (jun 2022) <br></br>
+    I graduated from computer and artificial intelligence Helwan university (may 2024) <br></br>
     by <b>GP:A+</b> and <b>GPA:3.35</b> My GP is about <b>Aptos Bluidness Detection</b> we use Deep Learning And Machine Learning <br></br> Made Website For Made Patiant Can Ask Ai About Percentage Of Disease And Can Book with Doctor Online Or Offline And Doctor Can See X-ray And Write commit and Patient can PAy And give Feedback for doctor And Doctor Reply On That Such As Hospital <br></br> Made All Frontend And Made Some Models In Dl 
       <br></br> I Was Team Leader Selected By Doctor and My team  </p>
     </div>

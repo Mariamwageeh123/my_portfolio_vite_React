@@ -156,19 +156,7 @@ shopping
           </div>
 
           {/* Second Card */}
-          <div className="col-5">
-            <div className="card1 card img-fluid mt-3" style={{ width: "100%",height:"300px"  }}>
-              <img className="card-img-top" src={ecommerce} alt="Card image" style={{ width: '100%',height:"300px"  }} />
-              <div className="card-img-overlay front">
-                <h4 className="card-title">John Doe</h4>
-                <p className="card-text">
-                  Some example text some example text. Some example text some example text.
-                  Some example text some example text. Some example text some example text.
-                </p>
-                <a href="#" className="btn btn-primary">View Project</a>
-              </div>
-            </div>
-          </div>
+         
 
           {/* You can add more cards here with similar structure */}
         </div>

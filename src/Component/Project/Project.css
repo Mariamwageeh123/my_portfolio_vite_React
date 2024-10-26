@@ -1,0 +1,52 @@
+/* Container for the project cards */
+.About {
+    padding: 20px; /* Add some padding around the cards */
+  }
+  
+  /* Style for card title */
+  .card-title {
+    font-size: 1.25rem; /* Increase font size */
+    font-weight: bold;
+  }
+  
+  /* Style for card text */
+  .card-text {
+    font-size: 0.9rem; /* Smaller font size for better readability */
+    overflow: hidden; /* Prevent text overflow */
+    display: -webkit-box; /* For Safari */
+   
+    -webkit-box-orient: vertical; /* Required for line clamp */
+    max-height: 4.5em; /* Set max height based on line height */
+    line-height: 1.5em; /* Set line height */
+  }
+  
+  /* Card styling */
+  .card {
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    transition: transform 0.3s; /* Smooth hover effect */
+  }
+  
+  /* Scale effect on hover */
+  .card:hover {
+    transform: scale(1.05); /* Slightly scale the card */
+  }
+  
+  /* Ensure images fill the card properly */
+  .card-img-top {
+    object-fit: cover; /* Cover the entire card */
+  }
+  
+  /* Responsive design for mobile devices */
+  @media (max-width: 768px) {
+    .col-5 {
+      flex: 0 0 100%; /* Stack cards vertically on small screens */
+      max-width: 100%; /* Ensure full width */
+    }
+  
+    .card-text {
+      font-size: 0.85rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
